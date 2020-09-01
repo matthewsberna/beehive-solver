@@ -1,9 +1,9 @@
 # beehive-solver
 A script I wrote to solve the NYT "Beehive" word puzzle (or whatever it's actually called).
 
-The puzzle consists of seven hexagons -- a central hexagon surrounded by a ring of six others -- with each containing a single letter.  The goal was to form as many words as possible from the provided letters, with a couple additional rules.  As I recall:
-* The solution word must be at least 4 letters long.
-* The solution word must use the central letter.
+The puzzle consists of seven hexagons -- a central hexagon surrounded by a ring of six others -- each containing a single letter.  The goal is to form as many words as possible from the provided letters, with a couple additional rules.  As I recall:
+* A solution word must be at least 4 letters long.
+* A solution word must use the central letter.
 * Provided letters may be repeated in the solution word.
 * And while I don't remember how scoring worked, I do know that solution words using all available letters are PANGRAMS and score double points, so obviously you want to find those.
 
